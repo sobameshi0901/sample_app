@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.1.4'
+gem 'bcrypt', '3.1.11'
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma',         '3.9.1'
 gem 'sass-rails',   '5.0.6'
@@ -32,4 +33,3 @@ end
 group :production do
   gem 'pg', '0.20.0'
 end
-
